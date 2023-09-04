@@ -1,0 +1,34 @@
+body {
+    background-color:#cccccc;
+}
+
+
+/*Viewport é o tamanho da janela do navegador. 1vw = 1% da largura da janela de visualização
+Se a janela de visualização tiver 50 cm de largura, 1vw terá 0,5 cm */
+h1 {
+    font-size: 5vw;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3vw;
+    text-align: center;
+}
+
+/*(Se a propriedade CSS width estiver definida como 100%,
+ a imagem será resposiva e aumentará e diminuirá )*/
+ /*( Se a max-width propriedade estiver definida com 100%,
+ a imagem será reduzida se for necessário, mas nunca será ampliada para ser maior que seu tamanho original)*/
+img {
+    max-width: 100%;
+    padding-left: 15%;
+    
+}
+/*(O tamonho do texto pode ser definido com uma unidade "vw",
+que significa "largura" da janela de visualização)
+( dessa forma, o tamanho do texto seguirá o tamanho da janela do navegador) */
+p {
+    font-size: 2vw;
+    text-align: center;
+}
+
